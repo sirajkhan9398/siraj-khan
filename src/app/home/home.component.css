@@ -1,0 +1,63 @@
+.container-fluid {
+    overflow-y: hidden;
+    /* Hide vertical scrollbar */
+    overflow-x: hidden;
+    /* height: 70%; */
+}
+
+.img-container {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-image {
+    background-image: url('https://brandflow.net/assets/img/featured/mdb-prolog.jpg') !important;
+    background-size: contain;
+}
+
+.container{
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: auto;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:black;
+    color: orange;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-style: italic;
+    font-size: 400%;
+    transform: translate(-50%, -50%);
+    color: white   ;
+  }
+
+  h1 {
+    font-size: 50px;
+    margin-top: 2%;
+    color: orange;
+}
